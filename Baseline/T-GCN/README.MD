@@ -1,12 +1,4 @@
-This is a TensorFlow implementation of T-GCN: A Temporal Graph Convolutional Network for Traffic Prediction.
-
-## Requirements:
-* tensorflow
-* scipy
-* numpy
-* matplotlib
-* pandas
-* math
+This is a implementation of T-GCN: A Temporal Graph Convolutional Network for Traffic Prediction.
 
 ## Run the demo
 Python main.py
@@ -27,7 +19,8 @@ The T-GCN model was in the tgcn.py
 ## Implement
 In this paper, we set time interval as 15 minutes, 30 minutes, 45 minutes and 60 minutes.
 
-In the sz_taxi dataset, we set the parameters seq_len to 4 and pre_len to 1, 2, 3, 4; In the los_loop dataset, we set the parameters seq_len 12 and the pre_len to 3, 6, 9, 12 respectively.
+In the sz_taxi dataset, we set the parameters seq_len to 4 and pre_len to 1, 2, 3, 4; 
+In the los_loop dataset, we set the parameters seq_len 12 and the pre_len to 3, 6, 9, 12 respectively.
 
 ## Data Description
 There are two datasets in the data fold.<br>
